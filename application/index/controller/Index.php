@@ -5,12 +5,20 @@ class Index extends Controller
 {
     public function index()
     {
-        return '1111111111111111111111111';
+        return view();
+    }
+   public function left()
+    {
+        return view();
+    }
+    public function main()
+    {
+        return view();
+    }
+    public function top()
+    {
+        return view();
     }
 
-
-    public function text(){
-
-    	return '111111111111';
-    }
+    
 }

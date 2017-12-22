@@ -8,10 +8,13 @@ class Text extends Controller{
      	return 11111;
    }
      public function xiix(){
-    
-       
 
        return view('xiix',['name'=>'thinqqquikphp']);
+     }
+
+     public function nihao(){
+
+     	return view('nihao',['name'=>'thinqqquikphp']);
      }
 }
 
